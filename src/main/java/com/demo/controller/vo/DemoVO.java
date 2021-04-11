@@ -6,7 +6,7 @@ public class DemoVO {
 
     private int id;
 
-    @Verification(notNull = true, msg = "name不可以为空")
+    @Verification(notNull = true, msg = "name不可以为空", apis = "/dem*")
     private String name;
 
     public int getId() {

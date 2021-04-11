@@ -11,4 +11,9 @@ public class DemoController {
     public DemoVO demo(DemoVO demoVO){
         return demoVO;
     }
+
+    @Route(value = "/nDemo", requestMethod = ReqMethod.POST)
+    public DemoVO nDemo(DemoVO demoVO){
+        return demoVO;
+    }
 }
