@@ -2,7 +2,7 @@ package com.demo.controller;
 
 import com.demo.controller.vo.DemoVO;
 import com.magician.web.core.annotation.Route;
-import io.magician.tcp.http.constant.ReqMethod;
+import io.magician.tcp.codec.impl.http.constant.ReqMethod;
 
 @Route("/demoController")
 public class DemoController {

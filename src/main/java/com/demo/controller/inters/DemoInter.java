@@ -2,7 +2,7 @@ package com.demo.controller.inters;
 
 import com.magician.web.core.annotation.Interceptor;
 import com.magician.web.core.interceptor.MagicianInterceptor;
-import io.magician.tcp.http.request.MagicianRequest;
+import io.magician.tcp.codec.impl.http.request.MagicianRequest;
 
 @Interceptor(pattern = "/demoController/*")
 public class DemoInter implements MagicianInterceptor {

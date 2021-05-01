@@ -1,7 +1,9 @@
 package com.demo.controller.vo;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.magician.web.core.annotation.Verification;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class DemoVO {
 
     private int id;
